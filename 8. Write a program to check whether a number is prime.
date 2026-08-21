@@ -1,0 +1,17 @@
+void main() {
+  int num = 17;
+  bool prime = true;
+
+  if (num < 2) {
+    prime = false;
+  } else {
+    for (int i = 2; i <= num ~/ 2; i++) {
+      if (num % i == 0) {
+        prime = false;
+        break;
+      }
+    }
+  }
+
+  print(prime ? "Prime" : "Not Prime");
+}
