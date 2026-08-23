@@ -1,0 +1,7 @@
+void main() {
+  String sentence = "Dart is a programming language";
+
+  int words = sentence.trim().split(RegExp(r'\s+')).length;
+
+  print("Number of words = $words");
+}
