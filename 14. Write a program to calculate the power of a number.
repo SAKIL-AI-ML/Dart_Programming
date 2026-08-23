@@ -1,0 +1,9 @@
+import 'dart:math';
+
+void main() {
+  int num = 2;
+  int power = 5;
+
+  num result = pow(num, power);
+  print("Result = $result");
+}
