@@ -1,0 +1,9 @@
+void main() {
+  int n = 5;
+
+  print("Square = ${square(n)}");
+}
+
+int square(int n) {
+  return n * n;
+}
