@@ -1,0 +1,5 @@
+void main() {
+  String str = "Hello World Dart";
+  String result = str.replaceAll(" ", "");
+  print("String without spaces: $result");
+}
