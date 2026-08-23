@@ -1,0 +1,6 @@
+void main() {
+  String str = "Hello";
+  String reverse = str.split('').reversed.join('');
+
+  print("Reverse = $reverse");
+}
