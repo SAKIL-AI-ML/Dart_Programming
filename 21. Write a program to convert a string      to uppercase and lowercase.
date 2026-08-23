@@ -1,0 +1,6 @@
+void main() {
+  String str = "Hello World";
+
+  print("Uppercase: ${str.toUpperCase()}");
+  print("Lowercase: ${str.toLowerCase()}");
+}
