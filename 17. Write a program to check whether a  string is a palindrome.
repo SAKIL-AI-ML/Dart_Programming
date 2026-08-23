@@ -1,0 +1,10 @@
+void main() {
+  String str = "madam";
+  String reverse = str.split('').reversed.join('');
+
+  if (str == reverse) {
+    print("Palindrome");
+  } else {
+    print("Not Palindrome");
+  }
+}
