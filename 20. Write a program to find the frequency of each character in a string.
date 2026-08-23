@@ -1,0 +1,9 @@
+void main() {
+  String str = "hello";
+  Map<String, int> frequency = {};
+
+  for (String ch in str.split('')) {
+    frequency[ch] = (frequency[ch] ?? 0) + 1;
+  }
+  print(frequency);
+}
